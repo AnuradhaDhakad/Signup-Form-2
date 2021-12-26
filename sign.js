@@ -51,13 +51,10 @@ function checkInputs() {
 		} else if(emailValue === ''){
 			document.getElementById('error').innerHTML = 'Please fill the required fields!';
 			return false;
-		}
-		 
-		else if(passwordValue === ''){
+		}else if(passwordValue === ''){
 			document.getElementById('error').innerHTML = 'Please fill the required fields!';
 			return false;
-		} 
-		else if(password2Value === ''){
+		} else if(password2Value === ''){
 			document.getElementById('error').innerHTML = 'Please fill the required fields!';
 			return false;
 		}
